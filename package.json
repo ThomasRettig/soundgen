@@ -1,0 +1,22 @@
+{
+  "name": "soundgen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasRettig/soundgen.git"
+  },
+  "author": "Thomas Rettig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThomasRettig/soundgen/issues"
+  },
+  "homepage": "https://github.com/ThomasRettig/soundgen#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
