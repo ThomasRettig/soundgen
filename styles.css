@@ -1,0 +1,29 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+button {
+	aspect-ratio: 1;
+	background-color: #444;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 100px;
+}
+
+button:hover {
+	background-color: #222;
+	transform: scale(1.02);
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 5vmin;
+	grid-row-gap: 5vmin;
+}
